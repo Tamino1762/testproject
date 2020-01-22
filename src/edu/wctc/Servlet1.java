@@ -15,7 +15,7 @@ public class Servlet1 extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String myDino = request.getParameter("Stuff");
+        String myDino = request.getParameter("faveDinosaur");
 
         String message = "<html><body>My fave dino is " + myDino + "</body></html>";
 
